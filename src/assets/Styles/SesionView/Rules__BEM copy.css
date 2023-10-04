@@ -1,0 +1,25 @@
+/*
+
+1. Bloque: Un bloque hace referencia a una entidad o componente independiente que tiene sentido por sí solo. Por ejemplo: navbar, footer, post, button, alert¹². Los bloques no siempre son fáciles de identificar, por eso es importante hacer un trabajo previo de análisis².
+
+2. Elemento: Los elementos son partes de un bloque que no tendrían un significado propio por sí mismos. Estos están ligados semánticamente a su bloque padre y se representan tal y como podemos ver en los siguientes ejemplos: navbar__link, footer__nav, post__title, button__icon¹².
+
+3. Modificador: Los modificadores son variantes de componentes o elementos que modifican su aspecto sin llegar a cambiar su significado. Se pueden utilizar, por ejemplo, para cambiar el background de un botón, el estado de un input o el color de una alerta. Algunos ejemplos serían: navbar__link--active, button--primary, alert--success¹².
+
+4. Nomenclatura BEM en CSS: Los nombres de clases con convención BEM pueden tener la siguiente sintaxis:
+    - `[bloque]`
+    - `[bloque]__[elemento]`
+    - `[bloque]--[modificador]`
+    - `[elemento]--[modificador]`
+    - `[bloque]__[elemento]--[modificador]`¹²
+
+Por ejemplo:
+
+css
+.bloque {  estilos del bloque  }
+.bloque__elemento {  estilos del elemento  }
+.bloque--modificador {  estilos del modificador *}
+
+
+5. ¿Por qué y para qué usar BEM?: La nomenclatura BEM nos ayuda a definir componentes modulares y reusables en nuestros desarrollos de forma sencilla. 
+
