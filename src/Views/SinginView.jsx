@@ -4,7 +4,7 @@ import React from 'react';
 const SinginView = () => {
     return (
         <div>
-            
+            <h1>Singin View Route</h1>
         </div>
     );
 }

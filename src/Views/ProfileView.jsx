@@ -4,7 +4,7 @@ import React from 'react';
 const ProfileView = () => {
     return (
         <div>
-            
+            <h1>Profile View Route</h1>
         </div>
     );
 }
