@@ -1,0 +1,12 @@
+@media screen and (min-width:901px) {
+    .Home__view{
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .Home__view{
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+}
