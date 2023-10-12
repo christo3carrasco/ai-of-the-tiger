@@ -21,4 +21,58 @@ css
 
 
 5. ¿Por qué y para qué usar BEM?: La nomenclatura BEM nos ayuda a definir componentes modulares y reusables en nuestros desarrollos de forma sencilla. 
+*/
 
+.container-exercise-view {
+  width: 100%;
+  height: 100vh;
+  background-color: #3ddeaa;
+}
+.container-exercise-view__header {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  padding: 10px;
+  border-bottom: 3px solid #003926;
+}
+.container-exercise-view__header__image {
+  width: 35px;
+  height: 30px;
+  margin: auto 0;
+}
+.container-exercise-view__header__title {
+  color: #1d1d1d;
+  font-weight: bold;
+}
+.container-exercise-view__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  gap: 15px;
+}
+.container-exercise-view__section__title {
+  margin: 0;
+}
+.container-exercise-view__section__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Card {
+  margin: 15px auto;
+}
+.Card__button {
+  width: 100%;
+  background-color: #1d1d1d !important;
+  color: #ffff;
+  position: relative;
+  bottom: 0px;
+}
+@media (max-width: 893px) {
+  .container-exercise-view {
+    height: 100%;
+  }
+}
