@@ -22,4 +22,21 @@ css
 
 
 5. ¿Por qué y para qué usar BEM?: La nomenclatura BEM nos ayuda a definir componentes modulares y reusables en nuestros desarrollos de forma sencilla. 
+*/
 
+
+@media screen and (min-width:901px) {
+    .Review-container{
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .Review--container{
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+}
+.background_view{
+    background-color: #DAE9E5;
+}
