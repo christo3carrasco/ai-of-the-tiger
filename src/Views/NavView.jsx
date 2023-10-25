@@ -27,7 +27,7 @@ const NavView = () => {
                 <Link className='Nav__link' to={'/ProfileView'}>PROFILE</Link>
             </NavItem>
             <NavItem className='Nav__item'>
-                <Link className='Nav__link' to={'/SessionView'}>SESSION</Link>
+                <Link className='Nav__link' to={'/ExerciseView'}>EXERCISE</Link>
             </NavItem>
             <NavItem className='Nav__item'>
                 <Link className='Nav__link' to={'/Review'}>REVIEW</Link>
