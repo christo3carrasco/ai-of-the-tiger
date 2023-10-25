@@ -1,0 +1,16 @@
+@media screen and (min-width:901px) {
+    .Home__title{
+        width: 37%;
+        font-family: montserrat;
+        font-weight: 800;
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .Home__title{
+        width: 100%;
+        font-family: montserrat;
+        font-weight: 800;
+        font-size: 4rem;
+    }
+}

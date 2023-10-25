@@ -1,0 +1,13 @@
+@media screen and (min-width:901px) {
+    .Home__img{
+        width: 800px;
+        height: 600px;
+    }
+}
+@media screen and (max-width:900px) {
+    .Home__img{
+        width: 400px;
+        height: 200px;
+        display: none;
+    }
+}
